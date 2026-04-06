@@ -1,0 +1,99 @@
+*{
+margin: 20px auto;
+}
+ 
+header {
+            background-color: #FFC8AE;
+            border: 3px;
+            border-color:#BD081C ;
+              border-style: solid;
+            width: 1264px;
+            height: 224px;
+        }
+        nav{
+            background-color:#E0FFA8;
+            border: 3px;
+            border-color:#598527 ;
+            border-style: solid;
+            width: 1166px;
+            height: 111px;
+        }
+        p{
+            color: #CCFFFF;
+            width: 100px;
+            height: 25px;
+            padding: 5px   0px;
+            text-align: center;
+            font-family:sans-serif;
+            font-size:20px ;
+            margin: 0;
+        }
+ 
+        main{
+        background-color:#FFC8AE;
+        border: 3px;
+        border-color:#BD081C ;
+        border-style: solid;
+        width:1264px ;
+        height: 679px;
+        display: flex;
+           
+        }
+ 
+        article{
+            background-color:#DDDDDD;
+            border: 3px;
+            border-color:#464646 ;
+            border-style: solid;
+            width: 980px;
+            height: 561px;
+        }
+        section{
+            background-color:#CCFFFF;
+            border: 3px;
+            border-color:#0F62A4;
+            border-style: solid;
+            width: 889px;
+            height: 122px;
+        }
+ 
+        aside{  background-color:#DDDDDD;
+            border: 3px;
+            border-color:#464646;
+            border-style: solid;
+            width:168px;
+            height:559px;
+            margin-top: 50px;
+            margin-left: -20px;
+        }
+        footer{
+            background-color:#FFC8AE;
+            border: 3px;
+            border-color:#BD081C ;
+            border-style: solid;
+            width: 1264px;
+            height: 224px;
+ 
+}
+header > p, main > p, footer > p {
+    background-color: #BD081C;
+}
+ 
+nav >  p {
+    background-color: #598527;
+}
+ 
+article > p{
+    background-color: #464646;
+}
+aside > p {
+    background-color: #464646;
+    width: 165px;
+ 
+}
+section > p {
+    background-color: #0F62A4;
+}
+ 
+ 
+ 
